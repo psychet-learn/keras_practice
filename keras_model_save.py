@@ -37,7 +37,6 @@ model.fit(X_train, y_train, epochs=5, batch_size=32, validation_data=(X_val, y_v
 loss_and_metrics = model.evaluate(X_test, y_test, batch_size=32)
 print('\nloss_andmetrics: ' + str(loss_and_metrics))
 
-
 # 6. 모델 저장하기
 model.save('mnist_mlp_model.h5')
 

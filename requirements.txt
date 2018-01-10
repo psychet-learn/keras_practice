@@ -1,12 +1,19 @@
 bleach==1.5.0
 certifi==2016.2.28
+cycler==0.10.0
 enum34==1.1.6
+h5py==2.7.1
 html5lib==0.9999999
 Keras==2.1.2
-Markdown==2.6.10
-numpy==1.13.3
+Markdown==2.6.11
+matplotlib==2.1.1
+numpy==1.14.0
+olefile==0.44
 pandas==0.22.0
+Pillow==4.2.1
 protobuf==3.5.1
+pydot==1.2.4
+pyparsing==2.2.0
 python-dateutil==2.6.1
 pytz==2017.3
 PyYAML==3.12
@@ -16,4 +23,5 @@ six==1.11.0
 sklearn==0.0
 tensorflow==1.4.1
 tensorflow-tensorboard==0.4.0rc3
+Theano==1.0.1
 Werkzeug==0.14.1
