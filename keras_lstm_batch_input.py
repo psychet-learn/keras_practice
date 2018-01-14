@@ -158,3 +158,7 @@ for i in range(pred_count):
 model.reset_states()
 
 print("full song prediction : ", seq_out)
+
+
+# 모델 저장하기
+model.save('seq_lstm_model.h5')
